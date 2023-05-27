@@ -35,11 +35,8 @@ int main()
     printf("\nUsing float");
     fahrF = lower;
     while(fahrF <= upper){
-        celsiusF = (5.0/9.0) * (fahrF - 32);
+        celsiusF = (5.0/9.0) * (fahrF - 32.0);
         printf("%3.0f%6.1f\n", fahrF, celsiusF);
         fahrF = fahrF + step;
     }
-
-    printf("git test2 main")
-
 }
