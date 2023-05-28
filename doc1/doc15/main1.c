@@ -2,9 +2,8 @@
 
 void main()
 {
-    int c;
+    char c;
 
-    printf("%d",EOF);
     c = getchar();
     while (c != EOF){
         putchar(c);
